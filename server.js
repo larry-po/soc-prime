@@ -13,7 +13,6 @@ app.get('/api/names', (req, res) => {
     allNames = JSON.parse(contents);
   }     
   let text = req.query.startsWith ? req.query.startsWith.toLowerCase() : '';
-  console.log(text);
   let fitNames = allNames.filter(n => n.toLowerCase().startsWith(text));
   res.send(fitNames);
 });
