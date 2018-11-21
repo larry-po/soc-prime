@@ -1,6 +1,10 @@
-# test task for SOC Prime
+# Test task for SOC Prime
 
-run app:
+Run app:
 ```
 npm start
 ```
+
+Then open in browser:
+[a link](http://localhost:8000/)
+
