@@ -6,5 +6,5 @@ npm start
 ```
 
 Then open in browser:
-[a link](http://localhost:8000/)
+[http://localhost:8000/](http://localhost:8000/)
 
