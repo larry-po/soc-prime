@@ -1,14 +1,15 @@
 {
-  "name": "angular-seed",
+  "name": "soc-prime",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "test task",
+  "repository": "https://github.com/larry-po/soc-prime",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.7.5",
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
+    "express": "^4.16.4",
     "html5-boilerplate": "0.0.1"
   },
   "devDependencies": {
@@ -28,7 +29,8 @@
     "postupdate-deps": "npm run copy-libs",
     "copy-libs": "cpx \"node_modules/{angular,angular-*,html5-boilerplate/dist}/**/*\" app/lib -C",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+    "start": "node server",
+    "start_old": "http-server -a localhost -p 8000 -c-1 ./app",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "npm test -- --single-run",
